@@ -1,0 +1,36 @@
+body, html {background: #123456;color: #abcdef ;font-size: 12px;}
+#container {width: 810px; margin: 0 auto 0 auto;}
+
+#notice {color: #abcdef; font-weight: bold; font-size: 15px; font-style: italic;}
+h1 {font-size: 38px; line-height: 45px;}
+h1 span {font-size: 16px; color: #ff0084;}
+h1 a:hover span {color: #abcdef;}
+
+.class-container {height: 180px; width: 240px; position: relative; float: left; 
+ padding: 10px 10px 10px 10px; 
+}  
+/* id-container is NOT defined in any CSS */
+.returnToMain {
+	
+		padding: 50 0 10 0; 
+	clear:both;
+	color: #abcdef;
+	background-color: #123456;
+}
+.image-info {display: none;}
+
+.image-info-active {height: 180px; width: 240px;
+	background: rgba(255,255,255,.85); 
+	
+	}
+
+a {cursor: pointer; text-decoration: none; color: #abcdef;font-weight:bold}
+/*a:hover {color: #123456; background: #abcdef;}*/
+a.title {color: #123456;}
+/*a.title:hover {color: #123456; background: #abcdef;}*/
+/*.bottom {padding: 5px;}
+.bottom p {margin: 0 0 5px 0; }*/
+p.top {background: #abcdef; width: 240px; padding: 0 0 5px 0; margin: 0;}
+a.title {font-size: 20px; font-weight: bold; display: block; line-height: 20px;}
+span.author {font-size: 10px;}
+.infoTitle {font-weight: bold; color: #123456;}

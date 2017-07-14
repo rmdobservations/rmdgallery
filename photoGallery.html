@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Photo Gallery </title>
+
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+
+<link rel = "stylesheet" type = "text/css" media ="screen" href ="css/photoGallery.css" > 
+<!-- jquery note, version 2 does not work with this code. Check .live() function with mouseover -->
+<!-- <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/writeForm.js"></script>
+<script type="text/javascript" src="js/getPhoto.js"></script>
+<script type="text/javascript" src="js/makeStruct.js"></script>
+<script type="text/javascript" src="js/constructorTest.js"></script> -->
+</head>
+<body>
+
+		
+ 
+		<h1>Journal </h1>  
+
+<form action="readINCLUDE.php"  method="post">
+
+<p>
+
+
+ <b>Tags (separate by commas):</b>   
+ <input type="text" name="tags" size="50" maxlength="100" /><input type="submit" name="submit" value="Enter"/> <br>
+ Copy and paste example: <b>2015,07,july,packed,fiets,houten</b>
+
+</p>
+<div></div>
+ </form>
+		
+<p>Retrieve images from <a href="https://www.flickr.com/photos/rmdobservations/">Flickr</a> website based on input tags</p>
+		  <div id="id-container" > 
+		</div> 
+		</div>  
+		
+
+</body>
+</html>

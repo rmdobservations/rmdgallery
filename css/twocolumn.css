@@ -1,0 +1,88 @@
+
+	#layoutdims {
+		clear:both;
+		/*background:#eee;*/
+		border-top:4px;
+		border-top:solid; ;
+		margin:0;
+		padding:6px 15px !important;
+		text-align:right;
+	}
+	#try_rmd {	clear:both;margin:0;
+	text-align:right;
+	}
+	/* column container */
+	.colmask {
+		clear:both;
+		float:left;
+		width:100%;			/* width of whole page */
+		/*overflow:hidden;	rmd 9 november 2012 */	/* This chops off any overhanging divs */
+	}
+
+#leftpanelcontent  {
+  	position:fixed; /* prevents left column from scrolling */
+	width: 70%;
+height:500px;
+padding-top:20px; 
+padding-bottom:20px; 
+	left:30px;
+ 
+ 	   /* margin-left: auto;
+    margin-right: auto;*/
+   }
+	
+	   
+#rightpanelcontent  {
+	left:30%;
+	/*height:1000px;*/
+	position:absolute; 
+	overflow: auto;
+	}
+		
+
+	
+ .slidenumber {
+ 	color:yellow;
+font-style: italic;
+    	}
+  	
+ .orangenumber {
+ 	color:orange;
+/*font-style: italic;*/
+    	}
+    	
+
+
+.slide p span {
+display:none;
+}   	
+
+ 	span.date {
+ 		font-size:1.1em;
+/* font-style:bold;*/
+ font-style: italic;
+ padding: 20px 20px 0px 0px ;
+}
+/* warning, use of these floats will cause text to flow around image */ 
+	.rmd_float_right
+		{
+			float: right;
+
+/* width: 200px;*/
+padding: 20px 20px 20px 20px ;
+	border-style: none;
+text-decoration: none; 
+		}
+	.rmd_float_left 
+	{
+		float: left;
+
+padding: 20px 20px 20px 20px ;
+
+	}	
+	
+	.paragraph_icon 
+{	padding: 0px 10px 0px 0px ;
+
+	}	
+	
